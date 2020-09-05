@@ -1,0 +1,13 @@
+.post-body{
+   
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 2px gray;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 0px 10px 20px 20px;    
+}
+.post-body:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 2px black;
+    
+}
