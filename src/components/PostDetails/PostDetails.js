@@ -32,7 +32,8 @@ const PostDetails = () => {
         </div>
              {/* comment part */}
         <div className="comments-style">
-            <Comment postId = {postId}></Comment> 
+            <Comment postId = {postId}></Comment>
+            <a href="/home">Back to Home</a>
         </div>
      </div>
     );
