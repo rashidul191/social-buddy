@@ -1,0 +1,16 @@
+.post-details-body{
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 80px;
+}
+.post-details{
+    
+    margin: 50px;
+    box-shadow: -5px -5px 2px 2px  gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+.comments-style{
+    margin: 2%;
+    padding: 2%;
+}

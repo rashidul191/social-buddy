@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Home.css';
 import Posts from '../Posts/Posts';
 
 const Home = () => {
@@ -10,10 +11,14 @@ const Home = () => {
     },[])
     return (
         <div>
-            <h1>Welcome to My site</h1>
-            {
-                posts.map( post => <Posts post={post}></Posts>)
-            } 
+            <div className="text-style">
+                <h1>Welcome to Social-Buddy</h1>
+            </div>
+            <div> 
+                {
+                    posts.map( post => <Posts post={post} key={post.id}></Posts>)
+                } 
+            </div>
         </div>
     );
 };

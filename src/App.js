@@ -14,7 +14,6 @@ import PostDetails from './components/PostDetails/PostDetails';
 function App() {
   return (
     <Router>
-
       <Switch>
 
         <Route exact path="/">
@@ -32,8 +31,8 @@ function App() {
         <Route path="*">
           <Nomatch/>
         </Route>
+        
       </Switch>
-
     </Router>
   );
 }

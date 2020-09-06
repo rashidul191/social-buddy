@@ -4,16 +4,14 @@ import { Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
 const Posts = (props) => {
-    console.log(props);
-    const {title, body, id} = props.post;
+    // console.log(props);
+    const {title, id} = props.post;
     return (
         <div className="post-body">
-            <h2>{title}</h2>
-            <p>{body}</p>
-            
-            <Link to={`/post/${id}`}>
+            <h2>Title : <small>{title}</small></h2>            
+            <Link className="btn-style" to={`/post/${id}`}>
                 <Button variant="contained" color="secondary">
-                Show More {id}
+                Show More
                 </Button>
             </Link>
         </div>
